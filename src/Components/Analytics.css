@@ -1,0 +1,61 @@
+
+.Analytics h3{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.analytics1{
+  width: 470px;
+  height: 180px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+.analytics1 img{
+ 
+align-self: center;
+width: 430px;
+
+}
+.analytics2{
+  width: 470px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 45% 22% 22%;
+  justify-content: space-between;
+}
+
+.analytics2-box1{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #F2E9FF;
+  padding: 15px;
+  border-radius: 15px;
+}
+.analytics2-box1 p{
+  margin:5px 0px;
+  font-size: 10px;
+  color: var(--pcolor);
+}
+#move{
+  width: 30px;
+  transform: translateX(75px) translateY(-30px);
+}
+.analytics2-box2{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.analytics2-box2 p{
+  font-size: 13px;
+  text-align: center;
+}
+.analytics2-box2 img{
+  transform: translateY(-5px);
+  width: 30px;
+  margin-bottom: 32px;
+}

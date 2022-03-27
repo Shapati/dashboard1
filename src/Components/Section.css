@@ -1,0 +1,131 @@
+
+.top-section{
+  display:  flex;
+ 
+}
+.top-section img{
+  margin-right: 15px;
+  height: 40px;
+}
+.top-section h2{
+  font-size: 15px;
+}
+.top-section p{
+  font-size: 12px;
+  color: var(--pcolor);
+}
+.middle-section{
+  margin-top: 60px;
+}
+.links{
+  display: flex;
+  margin-bottom: 40px;
+}
+.links img{
+  margin-right: 20px;
+
+}
+
+.links a{
+  text-decoration:  none;
+  color:  black;
+
+}
+#odd{
+  color: var(--pcolor);
+}
+
+.line{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 240px;
+  
+  background-color: var(--pcolor);
+  height: 1px;
+}
+.addsection{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 240px;
+}
+.addsection img{
+  height: 22px;
+}
+.links2{
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+.links2 img{
+  margin-right: 20px;
+
+}
+
+.links2 a{
+  text-decoration:  none;
+  color:  black;
+
+}
+#odd{
+  color: var(--pcolor);
+}
+.linksodd{
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  margin-bottom:  20px;
+}
+.links2 img{
+  margin-right: 20px;
+
+}
+
+.linksodd a{
+  text-decoration:  none;
+  
+
+}
+#odd2{
+  height: 20px;
+}
+.last-section{
+ position: absolute;
+ bottom: 20px;
+}
+.last-section img{
+  margin-right: 20px;
+}
+.last-section a{
+  color:  black;
+  text-decoration: none;
+}
+.down{
+  display: flex;
+  cursor: pointer;
+}
+.down h4{
+  margin-right: 25px;
+}
+.down img{
+  width: 10px;
+  height: 10px;
+  transform: translateY(7px);
+}
+.linkscontainer{
+  display: block;
+  /* animation: new 0.2s linear; */
+}
+@keyframes new {
+  0%{
+    opacity: 1;
+    transform: translateY(-50px);
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.remove{
+  display: none;
+}

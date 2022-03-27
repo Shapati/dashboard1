@@ -1,0 +1,39 @@
+:root{
+ --pcolor : rgb(160, 154, 154);
+}
+.App{
+  display: flex;
+  width: 1400px;
+  
+  margin: 0px auto;
+}
+.first{
+  flex: 1;
+  
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding-top: 20px;
+  padding-right: 15px;
+ 
+}
+.second{
+  
+ 
+  width: 850px;
+  overflow-x: hidden;
+  overflow-y: auto;
+ height: 100vh;
+  margin: 0px auto;
+  padding: 20px 30px;
+  /* padding: 30px 40px; */
+  background-color: #FAFAFA;
+
+ 
+}
+.third{
+  flex: 3;
+
+
+}

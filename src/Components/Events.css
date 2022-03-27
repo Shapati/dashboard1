@@ -1,0 +1,40 @@
+.events{
+  margin-top: 30px;
+}
+.events h3{
+  margin-bottom: 20px;
+}
+.events-box{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+#event-move{
+  transform: translateX(10px);
+}
+.events-box h5,
+.events-box h4{
+  text-align: center;
+}
+.events-box h4{
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+.events-box-flex {
+margin-bottom: 10px;
+}
+.events-box-flex img{
+  width: 70px;
+}
+.events-box-flex img:nth-child(1){
+  margin-right: 75px;
+}
+.events-box-flexx {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 5px;
+}
+.events-box-flexx img{
+  width:85px;
+}
