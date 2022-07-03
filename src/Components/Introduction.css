@@ -1,0 +1,32 @@
+.introduction{
+  display: flex;
+  justify-content: space-between;
+}
+.introduction-second{
+  display: flex;
+}
+.introduction-first h3{
+  font-size: 17px;
+  /* margin-right: -50px; */
+}
+.introduction-first p{
+  font-size: 12px;
+  color:  var(--pcolor);
+  /* margin-right: -5px; */
+}
+.introduction-second img{
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  background: white;
+  
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#chat{
+  /* border: 1px solid;
+  width: 150px;
+  margin-left: -90px;
+  transform: translateX(150px); */
+}

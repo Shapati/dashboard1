@@ -33,11 +33,14 @@ function App() {
   return (
     <div className="App">
      
-
-      
-      <Section Logo = {Logo}  Home ={Home} Calender = {Calender} Settings ={Settings} Published ={Published} Bookmark ={Bookmark} Time = {Time} Notification ={Notification}  Plus={Plus} Add = {Add} Right = {Right} Down = {Down} />
+     <div className='contain'>
+     <Section Logo = {Logo}  Home ={Home} Calender = {Calender} Settings ={Settings} Published ={Published} Bookmark ={Bookmark} Time = {Time} Notification ={Notification}  Plus={Plus} Add = {Add} Right = {Right} Down = {Down} />
       <Section2 Person1 = {Person1} Person2 = {Person2} Person3 = {Person3} Person4 = {Person4} Person5 = {Person5} Person6 = {Person6} Person7 = {Person7} Person8 = {Person8} Person10 = {Person10} Person11 ={Person11} Person12 = {Person12} views = {views} views2 ={views2} views3= {views3}/>
       <Section3 />
+     </div>
+
+      
+     
       </div>
    
   );

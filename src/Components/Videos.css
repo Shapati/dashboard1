@@ -1,0 +1,27 @@
+.videos{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 47% 47%;
+  justify-content: space-between;
+}
+.video-img{
+  margin-bottom: 28px;
+  transform: translateX(100px);
+}
+.videos-box{
+  padding: 10px;
+  border-radius: 10px;
+}
+.videos-box h2{
+  margin-top: 5px;
+}
+.videos-box p{
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+#video-box-1{
+  background: #F2E9FF;
+}
+#video-box-2{
+  background: #FEF3F0;
+}
